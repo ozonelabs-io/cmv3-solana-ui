@@ -37,7 +37,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta property="og:image" content={image} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{headerText}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <ChakraProvider>
         <WalletProvider wallets={wallets}>
