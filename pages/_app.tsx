@@ -31,16 +31,10 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta property="og:type" content="website" />
         <meta property="og:title" content={headerText} />
-        <meta
-          property="og:description"
-          content="Website is based on MarkSackerbers work"
-        />
-        <meta name="description" content="Website is based on MarkSackerbers work" />
+        <meta property="og:description" content="WEBISTE FOR PNFT MINT" />
+        <meta name="description" content="WEBISTE FOR PNFT MINT" />
 
-        <meta
-          property="og:image"
-          content={image}
-        />
+        <meta property="og:image" content={image} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{headerText}</title>
         <link rel="icon" href="/favicon.ico" />
